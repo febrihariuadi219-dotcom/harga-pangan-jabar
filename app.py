@@ -100,4 +100,4 @@ with tab4:
                        "harga_pangan_gabungan.csv", "text/csv")
 
 st.divider()
-st.caption("Sumber data: Open Data Jabar, Biro Perekonomian Setda Provinsi Jawa Barat. Nama dan NIM: ISI_DI_SINI")
+st.caption("Sumber data: Open Data Jabar, Biro Perekonomian Setda Provinsi Jawa Barat. Nama dan NIM: Haris Nugraha, 230660121074")
