@@ -1,7 +1,8 @@
 # 🌾 Dashboard Perkembangan Harga Pangan Jawa Barat 2024–2025 (Multi-DBMS Pipeline)
 
 Tugas UTS — Visualisasi Data dan Informasi (Informatika)
-**Nama:** Haris Nugraha . **NIM:** 230660121074
+
+**Nama:** Haris Nugraha · **NIM:** 230660121074
 
 🔗 **Live App:** ISI_URL_STREAMLIT
 🔗 **Repositori:** https://github.com/febrihariuadi219-dotcom/harga-pangan-jabar
@@ -60,7 +61,7 @@ flowchart LR
 - Berkas mentah & metadata: `data/raw/harga_pangan_jabar.csv`, `data/raw/metadata_dataset.pdf`
 
 ## Referensi kode / inspirasi
-- ISI_URL_REPO_REFERENSI (contoh repo publik Streamlit + database yang kamu pelajari)
+-  https://github.com/credough/iot-predictive-maintenance (dirujuk untuk teknik koneksi Streamlit ke PostgreSQL dengan SQLAlchemy dan struktur pipeline data)
 - Streamlit: https://docs.streamlit.io · Plotly: https://plotly.com/python/ · PyMongo: https://pymongo.readthedocs.io
 
 ## Struktur repositori
