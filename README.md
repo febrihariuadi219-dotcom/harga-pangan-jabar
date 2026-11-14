@@ -1,10 +1,10 @@
 # 🌾 Dashboard Perkembangan Harga Pangan Jawa Barat 2024–2025 (Multi-DBMS Pipeline)
 
 Tugas UTS — Visualisasi Data dan Informasi (Informatika)
-**Nama:** ISI_NAMA · **NIM:** ISI_NIM
+**Nama:** Haris Nugraha . **NIM:** 230660121074
 
 🔗 **Live App:** ISI_URL_STREAMLIT
-🔗 **Repositori:** ISI_URL_GITHUB
+🔗 **Repositori:** https://github.com/febrihariuadi219-dotcom/harga-pangan-jabar
 
 ## Studi kasus
 Memantau harga bulanan 20 komoditas pangan strategis di Jawa Barat (2024–2025) dan melihat
@@ -55,8 +55,8 @@ flowchart LR
 
 ## Sumber data
 - **Dataset:** *Kompilasi Data Perkembangan Harga Pangan di Provinsi Jawa Barat* (ID `od_34418`),
-  produsen: Biro Perekonomian Setda Provinsi Jawa Barat, melalui Open Data Jabar (opendata.jabarprov.go.id).
-  URL halaman dataset: **ISI_URL_HALAMAN_DATASET_DI_OPEN_DATA_JABAR**
+  produsen: Biro Perekonomian Setda Provinsi Jawa Barat, melalui Galura Data Jabar (galura.jabarprov.go.id).
+  URL halaman dataset: https://galura.jabarprov.go.id/dataset/kompilasi-data-perkembangan-harga-pangan-di-provinsi-jawa-barat-
 - Berkas mentah & metadata: `data/raw/harga_pangan_jabar.csv`, `data/raw/metadata_dataset.pdf`
 
 ## Referensi kode / inspirasi
@@ -70,6 +70,8 @@ src/connections.py     # koneksi (secrets/env, tanpa hardcode)
 src/queries.py         # query PostgreSQL + MongoDB
 src/transform.py       # merge Pandas + metrik
 src/charts.py          # grafik Plotly
+src/ui.py              # CSS & komponen tampilan dashboard
+.streamlit/config.toml # tema gelap
 db/schema.sql          # DDL PostgreSQL
 db/seed_postgres.py    # seed DBMS 1
 db/seed_mongo.py, mongo_docs.py   # seed DBMS 2
