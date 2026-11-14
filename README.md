@@ -4,7 +4,7 @@ Tugas UTS — Visualisasi Data dan Informasi (Informatika)
 
 **Nama:** Haris Nugraha · **NIM:** 230660121074
 
-🔗 **Live App:** ISI_URL_STREAMLIT
+🔗 **Live App:** https://harga-pangan-jabar-shujj3s9hf469wnv9zujzg.streamlit.app/
 🔗 **Repositori:** https://github.com/febrihariuadi219-dotcom/harga-pangan-jabar
 
 ## Studi kasus
